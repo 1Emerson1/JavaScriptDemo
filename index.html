@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<h2>Variables</h2>
+	<p>We use variables to store data.</p>
+</body>
+
+<script type="text/javascript">
+	// string variable
+	var name = 'Jon Snow';
+	// number variable
+	var age = 21;
+	// null variable
+	var city = undefined;
+	// boolean variable
+	var evil = false;
+
+	// writing to html
+	//document.write(name);
+
+	if(name == 'Daenerys') {
+		document.write('She is not the mother of dragons!');
+	} else {
+		document.write('She is the mother of dragons!');
+	}
+
+	// object with declared properities
+	var Emerson = {firstName: 'Emerson', lastName: 'Hidalgo', age: 20, eyeColor: 'Brown'};
+
+	//document.write(Emerson.age);
+
+	// arrays
+	var person = {};
+	person['firstName'] = 'Madison';
+	person['lastName'] = 'Kanna';
+
+	var hobbies = ['Coding', 'Writing', 'Hiking'];
+
+	// functions method 1
+	function addition(num1, num2) {
+		var sum = num1+num2;
+		return sum;
+	}
+
+	// functions method 2
+	var addTwoNum = function (a, b) {
+		return a + b;
+	}
+
+
+
+</script>
+
+</html>
